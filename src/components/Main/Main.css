@@ -1,0 +1,44 @@
+.site-layout-content {
+  min-height: 280px;
+  padding: 24px;
+  background: #fff;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.main-header-image {
+  width: 95vw;
+  height: 580px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layout {
+  background-color: #808080;
+}
+
+.container {
+  display: flex;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 500px;
+}
+
+.main-name {
+  padding: 15px;
+  background-color: black;
+  color: white;
+}
